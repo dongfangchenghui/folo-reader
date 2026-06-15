@@ -2,12 +2,10 @@
 name: folo-reader
 description: Use when the user asks to read RSS articles, manage subscriptions, search feeds, check unread counts, import/export OPML, save articles, or generate daily briefings via Folo. Wraps the `folo` CLI (npm package folocli by RSSNext/diygod).
 version: 1.0.0
-author: Hermes Agent
 license: MIT
 metadata:
   hermes:
     tags: [folo, rss, reader, feed, subscription]
-    related_skills: [wechat-article-pipeline]
 ---
 
 # Folo Reader
@@ -27,11 +25,6 @@ This skill wraps the most common `folo` CLI operations. Just tell me what you wa
 - User wants to see the latest articles from a specific feed
 - User wants to generate a daily/weekly reading brief
 
-**Don't use for:**
-
-- User wants to read WeChat Official Account articles → use `wechat-article-search`
-- User wants to publish an article to WeChat → use `wechat-article-pipeline` or `wechat-publisher`
-- User just wants to browse the web → use `web_search` / `web_extract`
 
 ## Quick Start
 
